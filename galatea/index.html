@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Галатея. Шахматы. Иностранные языки.</title>
+</head>
+<body>
+	<!-- JavaScript -->
+	<script src="Galatea.js"></script>
+	<script src="Chess.js"></script>
+	<script src="TellMe.js"></script>
+	
+	<!-- HTML -->
+	<div style="width:150px; float:left; font-weight: bold">Обьект window:</div>
+	<input type="button" onclick="Galatea.inside(window)" value="Что внутри window?" />
+	<input type="button" onclick="Galatea.inside(window.document.body)" value="Что внутри window.document?" />
+	<br />
+	<div style="width:150px; float:left; font-weight: bold">Обьект Galatea:</div> 
+	<input type="button" onclick="alert(Galatea.name)" value="Как тебя зовут?" />
+	<input type="button" onclick="Galatea.head.speak()" value="Говори" />
+	<input type="button" onclick="Galatea.start_pos()" value="Руки в стороны" />
+	<input type="button" onclick="Galatea.move_hands()" value="Движение руками" />
+	<input type="button" onclick="alert('Отвернись!');Galatea.move_leg()" value="Движение ногой" />
+	<input type="button" onclick="Galatea.start_dance()" value="Танцуй" />
+	<input type="button" onclick="Galatea.stop_dance()" value="Не танцуй" />
+	<input type="button" onclick="Galatea.inside(Galatea)" value="Что внутри Галатеи?" />
+	<br />
+	<div style="width:150px; float:left; font-weight: bold">Обьект Chess:</div> 
+	<input type="button" id="show" onclick="Chess.show_board()" value="Показать шахматы" />
+        <input type="button" id="show" onclick="Chess.show_timer()" value="Показать таймер" />
+	<input type="button" id="move" onclick="Chess.move()" value="Мой ход" />
+	<input type="button" onclick="alert('У меня еще нет такого метода: учиться тому как учиться учиться');" value="Ход Галатеи" />
+	<input type="button" onclick="Chess;Galatea.inside(Chess);" value="Что внутри Шахмат?" />
+	<input type="button" onclick="Chess;Galatea.inside(Chess.board);" value="Что внутри Доски?" />
+	<br />
+	<div style="width:150px; float:left; font-weight: bold">Обьект TellMe:</div> 
+	<input type="button" id="show" onclick="alert(TellMe.random_lang())" value="Скажи мне на любом языке" />
+	<input type="button" id="show" onclick="alert(TellMe.random_ru())" value="Скажи мне на русском" />
+	<input type="button" id="show" onclick="alert(TellMe.random_en())" value="Скажи мне на английском" />
+	<input type="button" id="show" onclick="alert(TellMe.random_fr())" value="Скажи мне на французском" />
+	<input type="button" onclick="Galatea.inside(TellMe)" value="Что внутри TellMe?" />
+	<br />
+	<br />
+	<img id="picture" src="galatea/gala_1.jpg" />
+	<div id="board" style="float:left; margin: 10px;"></div>
+	<div id="inside" style="float:right; width: 500px; margin: 10px;"></div>
+	
+</body>
+</html>

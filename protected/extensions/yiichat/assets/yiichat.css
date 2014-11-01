@@ -1,0 +1,48 @@
+.yiichat .exceded {
+	color: red;
+}
+
+.yiichat textArea {
+	width: 346px;
+}
+
+.yiichat .posts {
+	border: 1px dotted #eee;
+	display: block;
+	margin-bottom: 10px;
+	padding: 3px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 200px;
+}
+
+.yiichat .posts .post {
+	display: block;
+	border: 1px solid #aaa;
+	margin-bottom: 4px;
+	padding: 4px;
+	overflow: auto;
+}
+
+.yiichat .posts .post .track {
+	background-color:  #eee;
+	padding: 3px;
+	color: #333;
+	float: left;
+	overflow: auto;
+	margin-right: 10px;
+}
+
+.yiichat-post-myown {
+	background-color: #ddd;
+}
+.time {
+    font-size: 10px;
+}
+.yiichat .posts .post .track {
+    
+}
+.yiichat .posts .post .track .owner {
+}
+
+

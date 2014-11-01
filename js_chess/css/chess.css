@@ -1,0 +1,85 @@
+.f{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Piy.gif) no-repeat center center;
+}
+.f_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Piy_black.gif) no-repeat center center;
+}
+.f_1{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Eleph.gif) no-repeat center center;
+}
+.f_1_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Eleph_black.gif) no-repeat center center;
+}
+.f_2{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Ruch.gif) no-repeat center center;
+}
+.f_2_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Ruch_black.gif) no-repeat center center;
+}
+.f_3{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Asp.gif) no-repeat center center;
+}
+.f_3_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Asp_black.gif) no-repeat center center;
+}
+.f_4{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Pherz.gif) no-repeat center center;
+}
+.f_4_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Pherz_black.gif) no-repeat center center;
+}
+.f_5{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Roi.gif) no-repeat center center;
+}
+.f_5_b{
+	border: 3px solid;
+	opacity: 0;
+	margin: 5px;
+	background:url(../images/small/Roi_black.gif) no-repeat center center;
+}
+
+
+#board{
+	margin: 10px;
+	#float: left;
+	
+}
+
+.but{
+	margin-left: 10px;
+	margin-top: 10px;
+        width: 180px;
+}
